@@ -1,13 +1,10 @@
 // Liste des paires : 2 images différentes mais même "id"
 const pairs = [
-  { id: "chien", img: "images/chien1.png" },
-  { id: "chien", img: "images/chien2.png" },
-
-  { id: "chat", img: "images/chat1.png" },
-  { id: "chat", img: "images/chat2.png" },
-
-  { id: "voiture", img: "images/voiture1.png" },
-  { id: "voiture", img: "images/voiture2.png" }
+  { id: "tokaiteio", img: "images/tokaiteio_u.png" },
+  { id: "tokaiteio", img: "images/tokaiteio_h.png" },
+  
+  { id: "mcqueen", img: "images/mcqueen_u.png" },
+  { id: "mcqueen", img: "images/mcqueen_h.png" }
 ];
 
 // Mélange des cartes
