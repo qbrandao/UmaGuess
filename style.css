@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.card.revealed img {
+  display: block;
+}
